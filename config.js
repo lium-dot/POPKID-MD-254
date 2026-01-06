@@ -7,11 +7,11 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // --- BOT CORE SETTINGS ---
-    SESSION_ID: process.env.SESSION_ID || "POPKID;;;vU8wmbpQ#yernLUbFZC7j7PxBUp6MDVy6Yipe4pO__rJnVeqZcHU",
-    PREFIX: process.env.PREFIX || "*",
+    SESSION_ID: process.env.SESSION_ID || "POPKID;;;LcsSTCoJ#ut3TRPLsctN56X21KClCzTO7GmOJSBfIamNO8WU9VZY",
+    PREFIX: process.env.PREFIX || "¶",
     BOT_NAME: process.env.BOT_NAME || "POPKID-MD",
     DESCRIPTION: process.env.DESCRIPTION || "®✞Ⓞℙ $ᏕĦⓄ✞∃ℝ☠︎︎",
-    MODE: process.env.MODE || "pPRIVATE", // Options: public, private, inbox, group
+    MODE: process.env.MODE || "PRIVATE", // Options: public, private, inbox, group
     PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     
     // --- OWNER/DEV SETTINGS ---
