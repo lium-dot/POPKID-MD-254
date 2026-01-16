@@ -23,8 +23,8 @@ module.exports = {
     READ_MESSAGE: process.env.READ_MESSAGE || "false", // Auto read private messages
     READ_CMD: process.env.READ_CMD || "false", // Mark commands as read
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false", // Always show online status
-    AUTO_TYPING: process.env.AUTO_TYPING || "true", // Auto show typing status
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "true", // Auto show recording status
+    AUTO_TYPING: process.env.AUTO_TYPING || "false", // Auto show typing status
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "false", // Auto show recording status
     
     // --- REPLIES & MEDIA ---
     AUTO_REPLY: process.env.AUTO_REPLY || "true", // Automatic text reply
